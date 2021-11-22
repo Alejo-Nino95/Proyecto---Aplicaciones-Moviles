@@ -16,11 +16,11 @@ import org.json.JSONObject
 class SitesAdapter : RecyclerView.Adapter<SitesAdapter.ViewHolder>() {
 
     private var cityText = arrayOf(
-        "Ciudad 1",
-        "Cuudad 2",
-        "Ciudad 3",
-        "Ciudad 4",
-        "Ciudad 5")
+        "Ciudad 1: Bogota",
+        "Ciudad 2: Medellin",
+        "Ciudad 3: Cali"
+        "Ciudad 4: Manizales",
+        "Ciudad 5: Cartagena")
 
     private var imageFiles = intArrayOf(
         R.drawable.ic_launcher_foreground,
@@ -30,18 +30,18 @@ class SitesAdapter : RecyclerView.Adapter<SitesAdapter.ViewHolder>() {
         R.drawable.ic_launcher_foreground)
 
     private var shortInfoText = arrayOf(
-        "Info 1",
-        "Info 2",
-        "Info 3",
-        "Info 4",
-        "Info 5")
+        "Info 1: Capital de Colombia",
+        "Info 2: Ciudad de la eterna primavera",
+        "Info 3: Sucursal del cielo",
+        "Info 4: Region cafetera",
+        "Info 5: Ciudad amurallada")
 
     private var punctuationText = arrayOf(
-        "Puntuación 1",
-        "Puntuación 2",
-        "Puntuación 3",
-        "Puntuación 4",
-        "Puntuación 5")
+        "Puntuación 1: 5.0",
+        "Puntuación 2: 4.5",
+        "Puntuación 3: 4.5",
+        "Puntuación 4: 4.8",
+        "Puntuación 5: 5.0")
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SitesAdapter.ViewHolder {
         val view = LayoutInflater
