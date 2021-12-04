@@ -1,6 +1,5 @@
 package com.example.androidapp
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,17 +7,13 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-import java.io.InputStream
-
-import org.json.JSONObject
-
 
 class SitesAdapter : RecyclerView.Adapter<SitesAdapter.ViewHolder>() {
 
     private var cityText = arrayOf(
         "Ciudad 1: Bogota",
         "Ciudad 2: Medellin",
-        "Ciudad 3: Cali"
+        "Ciudad 3: Cali",
         "Ciudad 4: Manizales",
         "Ciudad 5: Cartagena")
 
